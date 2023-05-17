@@ -1,0 +1,16 @@
+# Describe GuardDuty findings that were detected related to the brute force attack
+
+the attack Detective happed at this time Created at
+05-17-2023 00:48:50 
+Updated at
+05-17-2023 20:44:27 
+Affected resources: application server 
+the source of the attack :Caller type
+Remote IP
+IP address
+188.54.14.51
+
+
+
+# Research the AWS Guard Duty documentation page and explain how GuardDuty may have detected this attack - i.e. what was its source of information.
+All GuardDuty finding are based on dedctors. the idea is the object represent GuardDuty service, each region have a dedctor. Findings represent potenial security issue with network, and classify it based on the threat using serverity level, from 0.1 to 8.9 the high value is considered high threat.

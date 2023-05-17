@@ -1,0 +1,14 @@
+
+
+# Identify 2-3 changes that can be made to our environment to prevent an ssh brute force attack from the internet.
+open ssh for specific Ip and dont open it for anyone 
+Imposing strong cloud security controls by creating more stric security groups
+Use Multi-factor authentication (MFA) 
+sr:https://www.scrut.io/post/aws-security-practices
+
+
+
+# Neither instance should have had access to the secret recipes bucket, in the even that instance API credentials were compromised how could we have prevented access to sensitive data.
+by using Encryption encrypt data at rest, and restrict access through least privilege role-based.   
+
+

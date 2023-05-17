@@ -1,0 +1,4 @@
+Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+web application should use https not http
+s3 bucket should be under trusted subnet 

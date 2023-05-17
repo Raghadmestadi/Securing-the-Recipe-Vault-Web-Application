@@ -1,0 +1,17 @@
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+Terrafirma  
+Checkov
+### Example vulnerability
+S3 bucket not encrypted
+##Scan AMI’s or containers for OS vulnerabilities
+Sysdig
+Anchore
+### Example vulnerability
+Use of untrusted images
+##Scan an AWS environment for cloud configuration vulnerabilities
+Inspector 
+
+### Example vulnerability
+Data not encrypted
